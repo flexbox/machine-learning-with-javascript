@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MobileNet Introduction</title>
+    <!-- Import tensorflow dependencies -->
+    <script
+      src="https://unpkg.com/@tensorflow/tfjs"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://unpkg.com/@tensorflow-models/mobilenet"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <h1>MobileNet with TensorFlow.js</h1>
+    <h2 id="message">Detecting image…</h2>
+    <img
+      id="image"
+      crossorigin
+      src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+    />
+    <script>
+      // Step 1: Load the model
+      mobilenet.load().then((net) => {
+        const targetImage = document.getElementById('image');
+        const targetText = document.getElementById('message');
+
+        // Step 2: Classify the image
+        net.classify(targetImage).then((result) => {
+          targetText.innerText = `
+            Detected: ${result[0].className}
+            Probability: ${result[0].probability}
+          `;
+        });
+      });
+    </script>
+  </body>
+</html>
