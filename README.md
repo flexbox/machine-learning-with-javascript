@@ -6,11 +6,18 @@ Explore [the complete mindmap](https://my.mindnode.com/h85zxxubxjuSewNvxwdhA3Ef3
 
 ## Projects
 
+Build with
+
+```
+cp -r tensorflowjs-template new
+```
+
 1. [mobilenet](mobilenet/)
 1. [nsfwjs](nsfwjs/)
 1. [joker-face](joker-face/)
 1. [image-to-tensor](image-to-tensor/)
 1. [tensor-reversal](tensor-reversal/)
+1. [old-tv](old-tv/)
 
 ## Ressources
 

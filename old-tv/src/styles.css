@@ -1,0 +1,35 @@
+body {
+  padding: 20px 40px;
+}
+
+#app {
+  background-image: url(../images/sam-balye-8apM7vbRP-U-unsplash.jpg);
+  background-size: cover;
+  width: 960px;
+  height: 654px;
+  position: relative;
+}
+
+#bsod,
+#screen {
+  position: absolute;
+  top: 145px;
+  left: 180px;
+  width: 500px;
+  height: 400px;
+}
+
+.buttons {
+  position: absolute;
+  top: 240px;
+  right: 180px;
+  display: grid;
+  grid-row-gap: 30px;
+}
+
+#rgb,
+#bw {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
