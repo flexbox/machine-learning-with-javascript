@@ -1,0 +1,18 @@
+body {
+  padding: 20px 40px;
+}
+
+.layout {
+  display: flex;
+  width: 100%;
+}
+
+.layout div {
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+}
+
+canvas {
+  width: 100%;
+}
