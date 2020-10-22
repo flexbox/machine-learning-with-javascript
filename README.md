@@ -18,7 +18,7 @@ cp -r tensorflowjs-template new
 1. [image-to-tensor](image-to-tensor/)
 1. [tensor-reversal](tensor-reversal/)
 1. [old-tv](old-tv/)
-1. [Vision](vision/)
+1. [vision](vision/)
 
 ## Ressources
 
