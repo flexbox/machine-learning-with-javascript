@@ -18,8 +18,10 @@ cp -r tensorflowjs-template new
 1. [image-to-tensor](image-to-tensor/)
 1. [tensor-reversal](tensor-reversal/)
 1. [old-tv](old-tv/)
+1. [Vision](vision/)
 
 ## Ressources
 
 - [The TensorFlow.js gallery](https://github.com/tensorflow/tfjs/blob/master/GALLERY.md)
 - [Awesome TensorFlow.js](https://github.com/aaronhma/awesome-tensorflow-js)
+- [IA Vision - Google Cloud](https://cloud.google.com/vision)
